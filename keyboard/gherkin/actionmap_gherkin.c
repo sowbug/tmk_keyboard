@@ -18,6 +18,7 @@
 #define AC_TM3    ACTION_MODS_TAP_KEY(MOD_LALT, KC_X)
 #define AC_TM4    ACTION_MODS_TAP_KEY(MOD_RALT, KC_N)
 #define AC_TM5    ACTION_MODS_TAP_KEY(MOD_RCTL, KC_M)
+#define AC_TM6    ACTION_MODS_TAP_KEY(MOD_LGUI, KC_W)
 #define AC_S01    ACTION_MODS_KEY(MOD_LSFT, KC_1)
 #define AC_S02    ACTION_MODS_KEY(MOD_LSFT, KC_2)
 #define AC_S03    ACTION_MODS_KEY(MOD_LSFT, KC_3)
@@ -41,7 +42,7 @@
 
 const action_t PROGMEM actionmaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = ACTIONMAP( \
-    Q,      W,      E,      R,      T,      Y,      U,      I,      O,      P, \
+    Q,      TM6,    E,      R,      T,      Y,      U,      I,      O,      P, \
     A,      S,      D,      F,      G,      H,      J,      K,      L,      ESC, \
     TM2,    TM3,    TL3,    TL4,    TL2,    TL1,    TL5,    TM4,    TM5,    TM1),
     [1] = ACTIONMAP( \

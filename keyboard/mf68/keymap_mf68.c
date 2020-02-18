@@ -15,7 +15,7 @@ KEYMAP(
     TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, PSCR, SLCK, PAUS, CALC, TRNS, TRNS, END,
     TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, HOME, TRNS,   TRNS, 
     TRNS, MSEL, MPLY, MSTP, MPRV, MNXT, VOLD, VOLU, MUTE, TRNS, END,         TRNS,      FN3, 
-    BTLD, TRNS, TRNS,                       TRNS,               TRNS, TRNS, APP,  FN2,  FN1,  TRNS
+    TRNS, TRNS, TRNS,                       TRNS,               TRNS, TRNS, APP,  FN2,  FN1,  TRNS
 ),
 };
 
